@@ -1,0 +1,1198 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#attritube_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#attritube_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#A型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型身形"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#L"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#M"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#OL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#O型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#S"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#V型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XL"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#X型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#三角形脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#丝绸织物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中年"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中性"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏瘦"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏白"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏红"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏胖"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黄"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黑"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#凉爽"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#化纤面料"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#卵圆形脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嘻哈"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#圆脸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#多云"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#大骨架型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女性"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女装"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嬉皮"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#学院"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#寒冷"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#方脸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#无领"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#晴天"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#朋克"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#杏仁脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#梨形"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#棉织"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#橙"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#欧美"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#正常"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#毛织物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#民族"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#沙漏型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#波西米亚"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#洛丽塔"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#淑女"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温暖"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#炎热"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瑞丽"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#田园"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男性"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男装"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瘦"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#百搭"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#矮"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#立领"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#简约"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#紫"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#红"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#绿"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻领"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻驳领"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#老年"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#胖"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#舒适"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#苹果型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#菱型脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#蓝"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#街头"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#裘皮及皮革面料"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#适中"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#通勤"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#针织面料"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长圆形脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长方形脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#阴天"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雨天"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雪天"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青少年"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#韩版"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#高"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#麻织物"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#黄"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#part_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#场合"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#形象"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#A型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#A型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型身形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型身形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#L -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#L">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#M -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#M">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#OL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#OL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#O型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#O型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#S -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#S">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#V型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#V型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#X型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#X型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#三角形脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#三角形脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#丝绸织物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#丝绸织物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中年 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中年">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏瘦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏瘦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏白 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏白">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏红 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏红">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏胖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏胖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#凉爽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#凉爽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#化纤面料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#化纤面料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#卵圆形脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#卵圆形脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嘻哈 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嘻哈">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#圆脸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#圆脸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#场合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#场合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#多云 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#多云">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#大骨架型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#大骨架型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男性"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女装 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#女装">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嬉皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#嬉皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#学院 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#学院">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#寒冷 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#寒冷">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#形象 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#形象">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#方脸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#方脸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#无领 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#无领">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#晴天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#晴天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#朋克 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#朋克">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#杏仁脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#杏仁脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#梨形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#梨形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#棉织 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#棉织">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#橙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#橙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#欧美 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#欧美">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#正常 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#正常">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#毛织物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#毛织物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#民族 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#民族">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#沙漏型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#沙漏型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#波西米亚 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#波西米亚">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#洛丽塔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#洛丽塔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#淑女 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#淑女">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温暖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温暖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#炎热 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#炎热">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瑞丽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瑞丽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#田园 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#田园">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男性 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男性">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男装 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#男装">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瘦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瘦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#百搭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#百搭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#矮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#矮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#立领 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#立领">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#简约 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#简约">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#紫 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#紫">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#红 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#红">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#绿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#绿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻领 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻领">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻驳领 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#翻驳领">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#老年 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#老年">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#胖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#胖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#舒适 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#舒适">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#苹果型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#苹果型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#菱型脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#菱型脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#蓝 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#蓝">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#街头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#街头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#裘皮及皮革面料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#裘皮及皮革面料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#适中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#适中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#通勤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#通勤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#针织面料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#针织面料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长圆形脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长圆形脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长方形脸型 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长方形脸型">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#阴天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#阴天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雨天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雨天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雪天 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雪天">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青少年 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青少年">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#韩版 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#韩版">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#高 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#高">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#麻织物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#麻织物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#黄 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#黄">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#H型身形"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#V型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#大骨架型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#梨形"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#沙漏型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#苹果型"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#L"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#M"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#S"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#XS"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#三角形脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#卵圆形脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#圆脸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#方脸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#杏仁脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#菱型脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长圆形脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#长方形脸型"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#中年"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#老年"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#青少年"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#体重"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#年龄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#性别"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#肤色"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#脸型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身形"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#身高"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏瘦"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏胖"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#正常"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#瘦"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#胖"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏白"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏红"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黄"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#偏黑"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#凉爽"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#寒冷"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温暖"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#炎热"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#舒适"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#场合"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#天气"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#形象"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#温度"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#多云"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#晴天"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#阴天"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雨天"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#雪天"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#情境数据"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#用户"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装尺寸"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装性别"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装版型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装面料"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装领型"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#服装风格"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#颜色"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#矮"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#适中"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/57818/ontologies/2020/7/untitled-ontology-24#高"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
