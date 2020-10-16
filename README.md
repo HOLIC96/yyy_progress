@@ -39,4 +39,4 @@
   - 基于Datalog转换的⽅法如KAON、 RDFox等
   - 基于产⽣式规则的算法（如rete）： Jena等
 
-![image-20201016211951519](C:\Users\57818\AppData\Roaming\Typora\typora-user-images\image-20201016211951519.png)
+![image-20201016211951519](./image-20201016211951519.png)
